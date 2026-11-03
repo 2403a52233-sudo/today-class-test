@@ -15,8 +15,8 @@ jobs:
       - name: Check HTML File
         run: test -f index.html
 
-      - name: Test Website Heading
-        run: grep -q "Welcome to My College" index.html
+   - name: Test Website Heading
+  run: grep -q "Welcome to My College" index.html
 
       - name: Show Success
         run: echo "All tests passed!"
